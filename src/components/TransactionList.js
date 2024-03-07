@@ -5,6 +5,10 @@ import Transaction from './Transaction';
 const TransactionList = () => {
   const {transactions} = useContext(GlobalContext);
   
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
   return (
     <div>
       <h3>History</h3>
@@ -12,6 +16,10 @@ const TransactionList = () => {
         {transactions.map(transaction => (
           <Transaction key={transaction.id} transaction={transaction} />
         ))}
+<<<<<<< Updated upstream
+=======
+        
+>>>>>>> Stashed changes
       </ul>
     </div>
   )
